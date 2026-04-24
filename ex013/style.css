@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*Aqui é para caso tenha problema com pontuação.*/
+body{
+            background-color: black;
+            color: rgb(255, 254, 254);
+            text-align: justify;
+            
+    }
+        h1{
+            background-color: azure;
+            color: blueviolet;
+        }
+        h2{
+            color: rgb(208, 165, 150);
+        }

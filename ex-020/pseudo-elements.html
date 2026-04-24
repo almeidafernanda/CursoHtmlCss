@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Personalizados</title>
+    <style>
+       a{
+        color: red;
+        text-decoration: none;
+       }
+
+       a:visited{
+        color: rgb(5, 95, 65);
+       }
+
+      a:hover{
+        background-color: yellow;
+      }
+
+      a:active{
+        color: aqua;
+      }
+
+     
+      .especial::before{
+        content: '🡲';
+      }
+
+      .especial::after{
+        content: '🡰';
+      }
+    </style>
+</head>
+<body>
+    <li><a href="https://www.linkedin.com/in/fernanda-almeida-2a4391218/" target="_blank">Meu LinkedIn</a></li>
+    <li><a href="https://github.com/almeidafernanda" class="especial">Meu GitHub</a></li>
+    <li><a href="https://www.youtube.com/@fernandaalmeids" class="especial">Meu canal do YouTube</a></li>
+</body>
+</html>
