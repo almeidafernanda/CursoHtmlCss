@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframes</title>
+</head>
+<body>
+    <h1>Meu site principal</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo praesentium mollitia vitae sint corporis labore consectetur natus voluptatibus fuga maiores, pariatur omnis ex expedita ullam suscipit cumque iure velit eos.</p>
+    <!-- sandbox="sandbox" não deixará o dado ser enviado/ quando quer dar permissão para um iframe que esteja no seu próprio servidor aí utiliza o allow-same-origin-->
+    <iframe src="paginas-extras/pag002.html" frameborder="1" 
+    sandbox="allow-same-origin allow-scripts" referrerpolicy="no-referrer"></iframe>
+    <!-- referrerpolicy="no referrer-when-downgrade" Somente no-referrer o que está carregado dentro do iframe não vai coletar nenhum dado dentro do seu site-->
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam odio qui enim, perspiciatis cum est quia ab animi! Rerum beatae, aliquid illo earum veritatis obcaecati autem voluptatibus eaque impedit amet?</p>
+</body>
+</html>
